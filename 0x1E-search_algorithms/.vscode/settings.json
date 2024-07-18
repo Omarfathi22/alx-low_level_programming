@@ -1,0 +1,4 @@
+{
+    "prettier.requireConfig": true,
+    "python.analysis.enablePytestSupport": true
+}
