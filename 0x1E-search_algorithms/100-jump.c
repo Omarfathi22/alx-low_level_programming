@@ -3,13 +3,13 @@
 #include "search_algos.h"
 
 /**
- * jump_search - Searches for a value in a sorted array using jump search
- * @array: Pointer to the first element of the array
- * @size: Number of elements in the array
- * @value: Value to search for
- *
- * Return: The first index where value is located, or -1 if not found or NULL
- */
+* jump_search - Searches for a value in a sorted array using jump search
+* @array: Pointer to the first element of the array
+* @size: Number of elements in the array
+* @value: Value to search for
+*
+* Return: The first index where value is located, or -1 if not found or NULL
+*/
 int jump_search(int *array, size_t size, int value)
 {
 	int index, m, k, prev;

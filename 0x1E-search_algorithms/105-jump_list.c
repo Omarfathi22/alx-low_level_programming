@@ -3,12 +3,14 @@
 #include <stdio.h>
 
 /**
- * jump_list - Searches for a value in a sorted singly linked list using jump search
+ * jump_list - Searches for a value in a sorted
+ * singly linked list using jump search
  * @list: Pointer to the head of the list
  * @size: The number of nodes in the list
  * @value: The value to search for
  *
- * Return: Pointer to the first node where value is located, or NULL if not found
+ * Return: Pointer to the first node where value is located,
+ * or NULL if not found
  */
 listint_t *jump_list(listint_t *list, size_t size, int value)
 {

@@ -51,5 +51,4 @@ listint_t *create_list(int *array, size_t size);
 void free_list(listint_t *list);
 void print_list(const listint_t *list);
 skiplist_t *linear_skip(skiplist_t *list, int value);
-
 #endif
